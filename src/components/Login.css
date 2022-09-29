@@ -1,0 +1,55 @@
+.login{
+    margin-top : 30px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+
+.login .loginContainer{
+    padding : 50px;
+    margin : auto;
+    box-shadow: 0 50px 70px -20px black;
+    background : 
+    linear-gradient(45deg, rgb(66, 17, 17), rgb(74, 11, 74))
+}
+
+.login .loginContainer label , h3{
+    color : white
+}
+
+.login .loginContainer input {
+    width: 100%;
+    padding : 10px;
+    
+}
+
+.login .loginContainer .btnContainer {
+    width: 100%;
+    padding : 25px 0 ;
+}
+
+.loginbtn {
+    cursor : pointer;
+    color : rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+.login .loginContainer .errorMsg{
+    color: red;
+    font-size: 15px;
+}
+.dashboard ul{
+    background: linear-gradient(90deg,violet,rgb(156,156,253));
+    display: flex;
+  /* Cette valeur peut être changée dans l'exemple */
+  justify-content: space-between;
+}
+.dashboard li a button{
+    color: white;
+}
+.artPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

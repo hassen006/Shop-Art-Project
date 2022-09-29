@@ -1,0 +1,112 @@
+.carousel-item img{
+    height: 590px !important;
+}
+
+
+.carousel-navbar {
+    position: relative;
+}
+
+.nav-menu{
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    margin-top: 6%;
+  
+}
+
+.nav-menu li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.nav-menu li a:hover{
+    color: orangered !important;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height:2em;
+
+}
+
+.what-we-offer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.what-offer-content{
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    background-color: rgba(140, 136, 136, 0.638);
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.what-offer-content h2 , .what-offer-content p {
+    padding: 5%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Tajawal';
+}
+.what-offer-content button{
+    
+    border: none !important;
+}
+.what-offer-content button:hover{
+    
+    border: none !important;
+}
+.what-offer-content img{
+    width: 200px;
+}
+
+
+.contact1{
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background: url('../ressources/contactus.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.line{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.line>img{
+    width: 60%;
+    height: 250px;
+}
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+    }
+    
+    .blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+    left: 19px;
+    }
